@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './home.scss';
 import Nav from '../Nav/Nav';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class Home extends React.Component {
     render() {
@@ -12,8 +12,8 @@ class Home extends React.Component {
                         <Nav />
                     </div>
                     <div className="container">
-                        <div class="row">
-                            <div class="col-4">
+                        <div className="row">
+                            <div className="col-4">
                                 <div className="text-zone">
                                     <span className="sm-top-tag text-muted">{"<body>"}</span>
                                     <div className="title"><h1 id="main-effect-header">
@@ -21,19 +21,19 @@ class Home extends React.Component {
                                           </h1></div>
                                     <p className="text-muted">Front-End Developer / React / Freelancer</p>
                                     <div className="btn-contact">
-                                        <a>
-                                            <span class="text">CONTACT ME</span>
-                                            <span class="line -right"></span>
-                                            <span class="line -top"></span>
-                                            <span class="line -left"></span>
-                                            <span class="line -bottom"></span>
-                                        </a>
+                                        <Link to="/contacts" >
+                                            <span className="text">CONTACT ME</span>
+                                            <span className="line -right"></span>
+                                            <span className="line -top"></span>
+                                            <span className="line -left"></span>
+                                            <span className="line -bottom"></span>
+                                        </Link>
                                     </div>
                                     <span className="sm-bottom-tag text-muted">{"</body>"}</span>
                                 </div>
                             </div>
 
-                            <div class="col-8">
+                            <div className="col-8">
                                 <img src="./jblue.png" className="main-img" width="400px" height="600px" />
                             </div>
                         </div>
