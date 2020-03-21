@@ -3,7 +3,7 @@ import './App.css';
 import '../Home/home.scss';
 
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import About from '../About/About';
 import Skills from '../Skills/Skills';

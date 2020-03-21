@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.scss'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Nav extends React.Component {
     render() {
@@ -25,24 +25,6 @@ class Nav extends React.Component {
                         <path d="M2.05 5.555L10 10.414l7.95-4.859A2 2 0 0016 4H4a2 2 0 00-1.95 1.555zM18 6.697l-5.875 3.59L18 13.743V6.697zm-.168 8.108l-6.675-3.926-1.157.707-1.157-.707-6.675 3.926A2 2 0 004 16h12a2 2 0 001.832-1.195zM2 13.743l5.875-3.456L2 6.697v7.046z" />
                     </svg><span className="spanContent">Contacts</span></Link>
                 </nav>
-
-                {/* <ul className="nav flex-column">
-                    <li className="nav-item">
-                        <a className="nav-link text-muted" href="#"></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-muted" href="#">Email</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-muted" href="#">Facebook</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-muted" href="#">Twitter</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-muted" href="#">LinkedIn</a>
-                    </li>
-                </ul> */}
             </React.Fragment>
 
         );

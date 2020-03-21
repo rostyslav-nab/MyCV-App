@@ -1,6 +1,8 @@
 import React from 'react';
 import './skills.scss';
 import Nav from "../Nav/Nav";
+import MyCloud from "./tag-cloud";
+
 
 
 class Skills extends React.Component {
@@ -36,7 +38,7 @@ class Skills extends React.Component {
                             </div>
 
                             <div className="col-8">
-
+                                <MyCloud/>
                             </div>
                         </div>
                     </div>

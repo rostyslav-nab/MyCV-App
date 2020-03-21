@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.scss';
 import Nav from '../Nav/Nav';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
     render() {
@@ -34,7 +34,7 @@ class Home extends React.Component {
                             </div>
 
                             <div className="col-8">
-                                <img src="./jblue.png" className="main-img" width="400px" height="600px" />
+                                <img alt="main-img" src="./jblue.png" className="main-img" width="400px" height="600px" />
                             </div>
                         </div>
                     </div>

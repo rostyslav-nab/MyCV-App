@@ -1,0 +1,13 @@
+.h1900{
+    font-weight: 900;
+}
+
+ul li a{
+    color: #d6d6d6;
+
+    &:hover{
+        color: #08FDD8;
+        font-size: 1.2rem;
+        transition: all ease 1s;
+    }
+}
