@@ -19,7 +19,7 @@ class Home extends React.Component {
                                     <div className="title"><h1 id="main-effect-header">
                                         Hi, I'm Rostyslav, <br /> web developer
                                           </h1></div>
-                                    <p className="text-muted">Front-End Developer / React / Freelancer</p>
+                                    <p className="text-muted title-descr">Front-End Developer / React / Freelancer</p>
                                     <div className="btn-contact">
                                         <Link to="/contacts" >
                                             <span className="text">CONTACT ME</span>
@@ -34,7 +34,7 @@ class Home extends React.Component {
                             </div>
 
                             <div className="col-8">
-                                <img alt="main-img" src="./jblue.png" className="main-img" width="400px" height="600px" />
+                                <img alt="" src="./jblue.png" className="main-img" />
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,9 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
+
         <Router>
+
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/contacts" component={Contact} />

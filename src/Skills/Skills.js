@@ -33,12 +33,21 @@ class Skills extends React.Component {
                                     <p className="white">English: Intermediate</p>
                                     <p className="white">Ukrainian: Native</p>
                                     <p className="white">Russian: Fluent</p>
+                                    <div className="btn-contact">
+                                        <a target="_blank" href="https://drive.google.com/file/d/1BdXUy26iYcyUn_Q9_baeJYeEH4Hsk1U3/view?usp=sharing" >
+                                            <span className="text">View CV</span>
+                                            <span className="line -right"></span>
+                                            <span className="line -top"></span>
+                                            <span className="line -left"></span>
+                                            <span className="line -bottom"></span>
+                                        </a>
+                                    </div>
                                     <span className="sm-bottom-tag text-muted">{"</body>"}</span>
                                 </div>
                             </div>
 
                             <div className="col-8">
-                                <MyCloud/>
+                                <MyCloud />
                             </div>
                         </div>
                     </div>

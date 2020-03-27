@@ -198,3 +198,161 @@ h1 {
 .main-img{
     margin: 50px 0 0 140px;
 }
+
+
+//---------------------------------------------------------------
+
+//-------------------------Media---------------------------------
+
+/* xs (<=543px) */
+@media (max-width: 575px) {
+  .main-img{
+    height: 250px;
+    width: 200px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+
+  .sm-top-tag, .sm-bottom-tag{
+    display: none;
+  }
+
+  #main-effect-header{
+    font-size: 25px;
+  }
+
+  .title-descr{
+    font-size: 12px;
+  }
+
+  .row .col-4{
+    flex: none;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .text-zone{
+    text-align: center;
+  }
+
+  .row .col-8{
+    flex: none;
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .btn-contact a{
+    font-size: 1em;
+  }
+}
+ 
+/* sm (>=576 и <=767) */
+@media (min-width: 576px) and (max-width: 767px) { 
+  .main-img{
+    width: 230px;
+    height: 330px;
+    margin-top:35%;
+    margin-left: 25%;
+  }
+
+  .sm-top-tag, .sm-bottom-tag{
+    display: none;
+  }
+
+  #main-effect-header{
+    font-size: 22px;
+  }
+
+  .title-descr{
+    font-size: 14px;
+  }
+
+  .text-zone{
+    margin-top: 160px;
+    margin-left: 10px;
+  }
+
+  .btn-contact a{
+    font-size: 1em;
+  }
+
+}
+ 
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .main-img{
+    width: 250px;
+    height: 350px;
+    margin-top: 60%;
+    
+  }
+
+  .sm-top-tag, .sm-bottom-tag{
+    display: none;
+  }
+
+  #main-effect-header{
+    font-size: 25px;
+  }
+
+  .text-zone{
+    margin-top: 300px;
+    margin-left: 20px;
+  }
+
+  .btn-contact a{
+    font-size: 1.3em;
+  }
+
+}
+ 
+/* lg (>=992 и <=1199) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .main-img{
+    width: 250px;
+    height: 350px;
+    margin-top: 50%;
+    
+  }
+
+  .sm-top-tag, .sm-bottom-tag{
+    display: none;
+  }
+
+  .text-zone{
+    margin-left: 30px;
+    margin-top: 300px;
+  }
+
+  #main-effect-header{
+    font-size: 30px;
+  }
+ }
+ 
+/* xl (1200 - 1400) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .main-img{
+    width: 300px;
+    height: 450px;
+    margin-left: 30%;
+    margin-top: 30%;
+  }
+  .sm-top-tag, .sm-bottom-tag{
+    display: none;
+  }
+  .text-zone{
+    margin-left: 50px;
+    margin-top: 250px;
+  }
+ }
+
+ /* xl (>=1400) */
+@media (min-width: 1400px) {
+  .main-img{
+    width: 400px;
+    height: 600px;
+  }
+}
