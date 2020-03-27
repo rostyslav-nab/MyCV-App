@@ -14,26 +14,26 @@ class Contact extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-4">
-                                <div className="text-zone new-format">
+                                <div className="text-zone new-format media-contacts">
                                     <span className="sm-top-tag text-muted">{"<body>"}</span>
                                     <div className="title"><h1 className="h1900" id="main-effect-header">
                                         Contact Me
                                   </h1></div>
                                     <ul className="nav flex-column">
                                         <li className="nav-item">
-                                            <a className="nav-link white" href="https://www.facebook.com/rostyslav.nabok.9" target="_blank" rel="noopener noreferrer"><img alt="Facebook" src="https://www.shareicon.net/data/32x32/2017/05/22/886208_facebook_512x512.png" />Facebook</a>
+                                            <a className="nav-link white" href="https://www.facebook.com/rostyslav.nabok.9" target="_blank" rel="noopener noreferrer"><img alt="Facebook" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-32.png" /> Facebook</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="https://www.linkedin.com/in/b-deppo/" target="_blank" rel="noopener noreferrer"><img alt="linkedIn" src="https://www.shareicon.net/data/32x32/2017/05/22/886191_social-media_512x512.png" />linkedIn</a>
+                                            <a className="nav-link" href="https://www.linkedin.com/in/b-deppo/" target="_blank" rel="noopener noreferrer"><img alt="linkedIn" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-32.png" /> linkedIn</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="mailto:rostuslav.nab@gmail.com" target="_blank" rel="noopener noreferrer"><img alt="Email" src="https://www.shareicon.net/data/32x32/2016/06/21/607410_email_128x128.png" />Email</a>
+                                            <a className="nav-link" href="mailto:rostuslav.nab@gmail.com" target="_blank" rel="noopener noreferrer"><img alt="Email" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/mail-32.png" /> Email</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="https://github.com/rostyslav-nab" target="_blank" rel="noopener noreferrer"><img alt="GitHub" src="https://www.shareicon.net/data/32x32/2016/06/20/607083_black_128x128.png" />GitHub</a>
+                                            <a className="nav-link" href="https://github.com/rostyslav-nab" target="_blank" rel="noopener noreferrer"><img alt="GitHub" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Github-32.png" /> GitHub</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="tel:+380507544969" target="_blank" rel="noopener noreferrer"><img alt="Call me" src="https://cdn2.iconfinder.com/data/icons/line-hero-essentials/32/Essentials_phone_telephone_vintage-32.png" />Call me</a>
+                                            <a className="nav-link" href="tel:+380507544969" target="_blank" rel="noopener noreferrer"><img alt="Call me" src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/phone-32.png" /> Call me</a>
                                         </li>
                                     </ul>
                                     <span className="sm-bottom-tag text-muted">{"</body>"}</span>
@@ -41,22 +41,22 @@ class Contact extends React.Component {
                             </div>
 
                             <div className="col-8" id="bear-id">
-                                <div class="bear">
-                                    <div class="bear__ears">
-                                        <div class="bear__ears__left ear"></div>
-                                        <div class="bear__ears__right ear"></div>
+                                <div className="bear">
+                                    <div className="bear__ears">
+                                        <div className="bear__ears__left ear"></div>
+                                        <div className="bear__ears__right ear"></div>
                                     </div>
-                                    <div class="bear__body">
-                                        <div class="bear__eyes">
-                                            <div class="bear__eyes--left eye"></div>
-                                            <div class="bear__eyes--right eye"></div>
+                                    <div className="bear__body">
+                                        <div className="bear__eyes">
+                                            <div className="bear__eyes--left eye"></div>
+                                            <div className="bear__eyes--right eye"></div>
                                         </div>
-                                        <div class="bear__nose">
-                                            <div class="bear__nose--inner"></div>
+                                        <div className="bear__nose">
+                                            <div className="bear__nose--inner"></div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="shadow"></div>
+                                <div className="shadow"></div>
                             </div>
                         </div>
                     </div>

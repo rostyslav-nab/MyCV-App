@@ -84,7 +84,7 @@
         left:50%;
         transform:translate(-50%,-50%);
         border-radius:50% / 40% 40% 60% 60%;
-        animation:flip .5s infinite alternate;
+
         &:after{
             content:"";
             width: 20px;

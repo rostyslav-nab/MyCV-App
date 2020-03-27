@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
 import '../Home/home.scss';
-
-
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import About from '../About/About';
 import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
@@ -14,6 +12,7 @@ import MyWork from '../MyWork/MyWork';
 
 
 class App extends React.Component {
+
   render() {
     return (
       <React.Fragment>

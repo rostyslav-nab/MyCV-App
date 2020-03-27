@@ -12,7 +12,7 @@ class About extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-4">
-                            <div className="text-zone">
+                            <div className="text-zone media-about">
                                 <span className="sm-top-tag text-muted">{"<body>"}</span>
                                 <div className="title"><h1 id="main-effect-header">
                                     ABOUT ME</h1></div>

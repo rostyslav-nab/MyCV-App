@@ -23,10 +23,10 @@ class Skills extends React.Component {
                                       </h1></div>
                                     <p className="white">
                                         The main area of my expertise is front end development (client side of the web).
-                                    <p />
-                                        <p className="white"></p>
-                                        HTML, CSS, JS, building small and medium web apps with React, custom plugins, features, animations, and coding interactive layouts.
                                     </p>
+                                        <p className="white">
+                                        HTML, CSS, JS, building small and medium web apps with React, custom plugins, features, animations, and coding interactive layouts.
+                                        </p>
                                     <p className="white">
                                         I have little experience working in freelance, I am looking for work in IT company and become Team Lead for 5 years.
                                     </p>
@@ -34,7 +34,7 @@ class Skills extends React.Component {
                                     <p className="white">Ukrainian: Native</p>
                                     <p className="white">Russian: Fluent</p>
                                     <div className="btn-contact">
-                                        <a target="_blank" href="https://drive.google.com/file/d/1BdXUy26iYcyUn_Q9_baeJYeEH4Hsk1U3/view?usp=sharing" >
+                                        <a target="_blank" without rel="noopener noreferrer" href="https://drive.google.com/file/d/1BdXUy26iYcyUn_Q9_baeJYeEH4Hsk1U3/view?usp=sharing" >
                                             <span className="text">View CV</span>
                                             <span className="line -right"></span>
                                             <span className="line -top"></span>
