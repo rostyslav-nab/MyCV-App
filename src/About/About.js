@@ -2,8 +2,7 @@ import React from 'react';
 import './about.scss'
 import Nav from '../Nav/Nav'
 
-class About extends React.Component {
-    render() {
+const About=()=>{
         return (
             <div className="mainContent">
                 <div className="leftBlock">
@@ -45,7 +44,6 @@ class About extends React.Component {
                 </div>
             </div>
         );
-    }
 }
 
 export default About;

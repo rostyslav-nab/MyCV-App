@@ -3,8 +3,7 @@ import './home.scss';
 import Nav from '../Nav/Nav';
 import { Link } from 'react-router-dom';
 
-class Home extends React.Component {
-    render() {
+const Home = () =>{
         return (
             <React.Fragment>
                 <div className="mainContent">
@@ -41,7 +40,6 @@ class Home extends React.Component {
                 </div>
             </React.Fragment>
         );
-    }
 }
 
 export default Home;

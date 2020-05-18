@@ -21,10 +21,10 @@ class App extends React.Component {
 
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/contacts" component={Contact} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/skills" component={Skills} />
-            <Route exact path="/works" component={MyWork} />
+            <Route path="/contacts" component={Contact} />
+            <Route path="/about" component={About} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/works" component={MyWork} />
           </Switch>
         </Router>
       </React.Fragment>

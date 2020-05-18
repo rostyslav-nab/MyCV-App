@@ -3,8 +3,7 @@ import './contact.scss'
 import Nav from '../Nav/Nav';
 import './bear.scss';
 
-class Contact extends React.Component {
-    render() {
+const Contact = () =>{
         return (
             <React.Fragment>
                 <div className="mainContent">
@@ -63,7 +62,6 @@ class Contact extends React.Component {
                 </div>
             </React.Fragment>
         );
-    }
 }
 
 export default Contact;

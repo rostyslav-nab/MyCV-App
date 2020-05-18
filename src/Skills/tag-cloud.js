@@ -23,7 +23,7 @@ class MyCloud extends Component {
     render() {
         return (
             <div className='app-outer'>
-                <div className='app-inner'>
+                <div className='app-inner' key="inner">
                     <TagCloud
                         className='tag-cloud'
                         style={{
@@ -35,7 +35,7 @@ class MyCloud extends Component {
                             }),
                             padding: 5,
                         }}>
-                        <div
+                        <div className="ran"
                             style={{
                                 fontFamily: 'serif',
                                 fontSize: 30,
@@ -43,18 +43,18 @@ class MyCloud extends Component {
                                 fontWeight: 'bold',
                                 color: randomColor()
                             }}>React</div>
-                        <CloudItem text="JavaScript" />
-                        <CloudItem text="GIT" />
-                        <div style={styles.large}>React</div>
-                        <div style={styles.large}>CSS3</div>
-                        <div style={styles.large}>Redux</div>
-                        <div style={styles.large}>JSX</div>
+                        <CloudItem className="clo-item-JS" text="JavaScript" />
+                        <CloudItem className="clo-item-GIT" text="GIT" />
+                        <div style={styles.large} className="clo-react">React</div>
+                        <div style={styles.large} className="clo-css">CSS3</div>
+                        <div style={styles.large} className="clo-redux">Redux</div>
+                        <div style={styles.large} className="clo-jsx">JSX</div>
                         <div style={{ fontFamily: 'courier' }}>Bootstrap</div>
                         <div style={{ fontSize: 20 }}>Node.js</div>
                         <div style={{ fontStyle: 'italic' }}>WebPack</div>
                         <div style={{ fontWeight: 200 }}>npm</div>
                         <div style={{ color: 'green' }}>AJAX</div>
-                        <div className="tag-item-wrapper">
+                        <div className="tag-item-wrapper" key="item-wrapper">
                         </div>
                         <div>HTML5</div>
                         <div>GitHub</div>
