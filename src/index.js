@@ -8,9 +8,9 @@ import './custom.scss';
 
 const application = (
     < BrowserRouter >
-        <App />
+    <App />
     </BrowserRouter >
-)
+);
 
 
 ReactDOM.render(application, document.getElementById('root'));

@@ -46,3 +46,27 @@
 }
 
 //--------------------------------------------------------
+
+//-------------------------Media---------------------------------
+
+/* xs (<=543px) */
+@media (max-width: 575px) {
+	.myWebCloud{
+		display: none;
+	}
+}
+
+/* sm (>=576 и <=767) */
+@media (min-width: 576px) and (max-width: 767px) {
+	.myWebCloud{
+		display: none;
+	}
+}
+
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.myWebCloud{
+		display: none;
+	}
+
+}
