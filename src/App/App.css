@@ -1,0 +1,13 @@
+.leftBlock{
+    width: 70px;
+    height: 100vh;
+    background:#181818;
+}
+
+.mainContent{
+    background: #1D1D1D;
+    height: 100vh;
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+}
